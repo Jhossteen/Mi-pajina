@@ -1,0 +1,58 @@
+body {
+    background: gray;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav ul {
+    float: left;
+    display: flex;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav h2 {
+    padding: 1rem 2rem;
+    float: left;
+    align-self: center;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    padding: 2rem;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.ins:hover {
+    background: rgba(118, 48, 184, 0.473);
+    border-radius: 10px;
+    padding: 1px;
+}
